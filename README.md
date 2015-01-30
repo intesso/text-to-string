@@ -9,6 +9,8 @@ npm install text-to-string
 
 ## usage
 
+this utility function can be used in node.js as well as in the browser e.g. with browserify.
+
 ```javascript
 var text2string = require('text-to-string');
 var text = fs.readFileSync(__dirname + '/README.md', 'utf-8');
