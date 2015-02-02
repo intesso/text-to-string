@@ -1,6 +1,6 @@
 {
   "name": "text-to-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform Text into a single line String",
   "main": "index.js",
   "scripts": {
