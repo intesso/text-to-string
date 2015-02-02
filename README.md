@@ -14,7 +14,6 @@ this utility function can be used in node.js as well as in the browser e.g. with
 with the given template file: `index.tmpl`
 
 ```html
-text
  <ul id="stores" onClick="console.log('clicked')">
         <li class="emily">emily's store</li>
         <li class="punky">funky store</li>
@@ -25,7 +24,6 @@ this javascript code:
 ```javascript
 var text2string = require('text-to-string');
 var text = fs.readFileSync(__dirname + '/fixtures/index.tmpl', 'utf-8');
-console.log('text\n', tmpl);
 
 // convert text into single line string wrapped with double quotes
 var double = text2string(tmpl);
