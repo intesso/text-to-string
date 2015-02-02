@@ -14,7 +14,7 @@ this utility function can be used in node.js as well as in the browser e.g. with
 with the given template file: `index.tmpl`
 
 ```html
- <ul id="stores" onClick="console.log('clicked')">
+<ul id="stores" onClick="console.log('clicked')">
         <li class="emily">emily's store</li>
         <li class="punky">funky store</li>
 </ul>
