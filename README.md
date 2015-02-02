@@ -10,6 +10,7 @@ npm install text-to-string
 ## usage
 
 this utility function can be used in node.js as well as in the browser e.g. with browserify.
+it can be useful, when you have to read a file, textarea value etc. and want to use it in the code in the form of a string variable.
 
 with the given template file: `index.tmpl`
 
