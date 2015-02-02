@@ -31,7 +31,7 @@ console.log('string wrapped with double quotes\n', double);
 	
 // convert text into single line string wrapped with single quotes	
 var single = text2string(tmpl, "'");
-console.log('string wrapped with single quotes\n', str);
+console.log('string wrapped with single quotes\n', single);
 ```
 produces this output:
 
